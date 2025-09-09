@@ -6,7 +6,6 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-  // Fetch the flag from the URL you decoded earlier
   // <FLAG = heroics> <LINK = https://wgg522ppivhv...lambda-url.us-east-1.on.aws/686572>
   const fetchFlag = async () => {
   setDisplayText("Loading...");
